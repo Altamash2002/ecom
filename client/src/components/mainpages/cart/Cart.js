@@ -104,9 +104,9 @@ function Cart() {
                             <p>{product.content}</p>
 
                             <div className="amount">
-                                <button onClick={() => decrement(product._id)}> - </button>
+                                <button className='inc-dec' onClick={() => decrement(product._id)}> - </button>
                                 <span>{product.quantity}</span>
-                                <button onClick={() => increment(product._id)}> + </button>
+                                <button className='inc-dec' onClick={() => increment(product._id)}> + </button>
                             </div>
                             
                             <div className="delete" 
