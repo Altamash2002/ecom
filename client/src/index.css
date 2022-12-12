@@ -25,6 +25,7 @@ code {
   padding: 0 40px;
   box-shadow: 0 0 35px #eee;
   background-color: whitesmoke;
+  overflow: auto;
 
 }
 
