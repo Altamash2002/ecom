@@ -46,8 +46,10 @@ function UserAPI(token) {
                 headers: {Authorization: token}
             })
 
+            alert(`${product.title} Added to Cart`)
+
         }else{
-            alert("This product has been added to cart.")
+            alert("This product already has been added to cart.")
         }
     }
 
