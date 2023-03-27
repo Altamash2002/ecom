@@ -20,7 +20,7 @@ function Register() {
             localStorage.setItem('firstLogin', true)
 
             
-            window.location.href = "/";
+            window.location.href = "/products";
         } catch (err) {
             alert(err.response.data.msg)
         }

@@ -34,7 +34,7 @@ function OrderHistory() {
 
             <h4>You have {history.length} ordered</h4>
 
-            <table>
+            <table className='history-table'>
                 <thead>
                     <tr>
                         <th>Payment ID</th>

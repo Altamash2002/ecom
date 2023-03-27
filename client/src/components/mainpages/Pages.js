@@ -12,6 +12,7 @@ import Categories from './categories/Categories'
 import CreateProduct from './createProduct/CreateProduct'
 
 import {GlobalState} from '../../GlobalState'
+import Home from './home/Home'
 
 
 function Pages() {
@@ -22,7 +23,8 @@ function Pages() {
 
     return (
         <Switch>
-            <Route path="/" exact component={Products} />
+            <Route path="/" exact component={Home} />
+            <Route path="/products" exact component={Products} />
             <Route path="/detail/:id" exact component={DetailProduct} />
 
             <Route path="/login" exact component={isLogged ? NotFound : Login} />

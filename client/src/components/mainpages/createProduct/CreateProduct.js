@@ -120,7 +120,7 @@ function CreateProduct() {
                 })
             }
             setCallback(!callback)
-            history.push("/")
+            history.push("/products")
         } catch (err) {
             alert(err.response.data.msg)
         }

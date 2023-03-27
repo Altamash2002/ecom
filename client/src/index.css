@@ -21,7 +21,7 @@ code {
   box-shadow: 0 0 35px #eee;
 } */
 .App {
-  min-height: 90vh;
+  min-height: 100vh;
   padding: 0 40px;
   box-shadow: 0 0 35px #eee;
   background-color: whitesmoke;
@@ -66,6 +66,9 @@ button{
 
 /* ------------------- Create Product -------------- */
 @import url("./components/mainpages/createProduct/createProduct.css");
+
+/* Footer */
+@import url("./components/headers/Footer.css");
 
 /* ----------------- Responsive ------------------ */
 @media (max-width: 820px){
