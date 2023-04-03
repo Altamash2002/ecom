@@ -41,16 +41,29 @@
     top: 156px;
     color: black;
     border-radius: 50%;
-    padding: 0px 18px;
+    padding: 0px 20px;
     background-color: rgba(255, 255, 255, 0.558);
     cursor: pointer;
     z-index: 1;
 }
+.arrow img{
+    width: 40px;
+    margin-bottom: 15px;
 
+
+}
 #right {
     right: 10px;
+}
+#right img{
+    right: 10px;
+    margin-left: 5px;
 }
 
 #left {
     left: 10px;
+}
+#left img{
+    left: 10px;
+    margin-right: 5px;
 }

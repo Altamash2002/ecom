@@ -22,7 +22,7 @@ code {
 } */
 .App {
   min-height: 100vh;
-  padding: 0 40px;
+  padding: 0 10px;
   box-shadow: 0 0 35px #eee;
   background-color: whitesmoke;
   overflow: auto;

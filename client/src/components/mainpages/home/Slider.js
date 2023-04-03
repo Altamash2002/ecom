@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import "./slider.css"
+import chevronRight from "../../headers/icon/chevron-right.svg"
+import chevronLeft from "../../headers/icon/chevron-left.svg"
 
 const images = [
   {
@@ -55,14 +57,14 @@ const Slider = () => {
         id="left"
         onClick={() => handleArrowClick(-1)}
       >
-        &lt;
+        <img src={chevronLeft} alt='pre'/>
       </span>
       <span
         className="arrow"
         id="right"
         onClick={() => handleArrowClick(1)}
       >
-        &#62;
+        <img src={chevronRight} alt='next'/>
       </span>
     </div>
   );
