@@ -21,3 +21,14 @@
 .logo-follow img{
     background-color: #222f3e;
 }
+
+/* responsive */
+@media screen and (max-width: 700px){
+    .footer{
+        flex-direction: column;
+        height: 100%;
+    }
+    .logo-follow{
+        margin: 30px 13px;
+    }
+}
