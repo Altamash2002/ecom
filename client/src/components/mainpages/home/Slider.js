@@ -5,25 +5,32 @@ import chevronLeft from "../../headers/icon/chevron-left.svg"
 
 const images = [
   {
-    src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/GoldenGateBridge-001.jpg/1200px-GoldenGateBridge-001.jpg',
-    alt: 'image 1',
-    caption: 'Caption Text 1'
+    src: 'https://res.cloudinary.com/dmq0rgph0/image/upload/v1682684519/shoes_tx3ykr.jpg',
+    alt: 'Shoes-image',
+    caption: 'Premium Footwear'
   },
   {
-    src: 'https://cdn.britannica.com/s:800x450,c:crop/35/204435-138-2F2B745A/Time-lapse-hyper-lapse-Isle-Skye-Scotland.jpg',
-    alt: 'image 2',
-    caption: 'Caption Text 2'
+    src: 'https://res.cloudinary.com/dmq0rgph0/image/upload/v1682684191/jeans_ucmxbc.jpg',
+    alt: 'jeans-image',
+    caption: 'Timeless Style'
   },
   {
-    src: 'https://static2.tripoto.com/media/filter/tst/img/735873/TripDocument/1537686560_1537686557954.jpg',
-    alt: 'image 3',
-    caption: 'Caption Text 3'
+    src: 'https://res.cloudinary.com/dmq0rgph0/image/upload/v1682684546/t-shirt_i1tmam.jpg',
+    alt: 't-shirt-image',
+    caption: 'Classic T-shirts'
   },
   {
-    src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Palace_of_Fine_Arts_%2816794p%29.jpg/1200px-Palace_of_Fine_Arts_%2816794p%29.jpg',
-    alt: 'image 4',
-    caption: 'Caption Text 4'
-  }
+    src: 'https://res.cloudinary.com/dmq0rgph0/image/upload/v1682685318/jackets_xx7xlz.jpg',
+    alt: 'Jacket-image',
+    caption: 'Confidently Cool'
+  },
+  {
+    src: 'https://res.cloudinary.com/dmq0rgph0/image/upload/v1682686323/ladies_fxuw6t.jpg',
+    alt: 'ladies-clothes-image',
+    caption: "Women's Clothing"
+  },
+
+
 ];
 
 const Slider = () => {

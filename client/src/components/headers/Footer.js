@@ -17,7 +17,7 @@ const Footer = () => {
             <a href="https://www.instagram.com/coding_altu/"> <span className="icons"><img src={instagramLogo} alt="instagram" /></span></a>
         </div>
         <h3 className="logo-follow">
-            <a href='https://ssingularity.co.in/' >Ssingularity Technologies </a>
+            <a href='https://LTCE.in/' >LTCE</a>
         </h3>
     </div>
   )

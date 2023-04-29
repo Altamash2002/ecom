@@ -18,14 +18,14 @@
 
 .slides img {
     width: 100%;
-    height: 60vh;
+    height: 80vh;
     object-fit: cover;
 }
 
 .caption {
     text-align: center;
     position: absolute;
-    bottom: 3px;
+    bottom: 0px;
     width: 100%;
     padding: 15px 0px;
     font-size: 30px;
