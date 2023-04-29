@@ -1,4 +1,4 @@
-import React, {useContext , useEffect} from 'react'
+import React, {useContext} from 'react'
 import './Filter.css'
 import {GlobalState} from '../../../GlobalState'
 
@@ -10,7 +10,7 @@ function Filters() {
     const [sort, setSort] = state.productsAPI.sort
     const [search, setSearch] = state.productsAPI.search
 
-    
+
     const handleCategory = e => {
         setCategory(e.target.value)
         setSearch('')

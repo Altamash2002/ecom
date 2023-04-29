@@ -17,7 +17,7 @@ const CategoriesContainer = () => {
 
         <div className="row">
             {categoriesImg.map((item) => (
-                <Categories item={item} key={item.id} />
+                <Categories item={item} key={item._id} />
             ))}
         </div>
     </div>
