@@ -8,8 +8,8 @@ const initialState = {
     product_id: '',
     title: '',
     price: 0,
-    description: 'lorem ispum dolor sit aset comet no longer part of the nsectetur adipisicing elit. Non fuga nesciunt ipsum',
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non fuga nesciunt ipsum temporibus provident similique quod facilis cum qui ducimus! nsectetur adipisicing elit. Non fuga nesciunt ipsum",
+    description: "Our products are made with high-quality materials to ensure durability and comfort. We offer a wide variety of styles and designs to fit any occasion and personal taste. Whether you're looking for casual wear or something more formal, we have something for everyone.",
+    content: " Our collection features versatile pieces that can be mixed and matched to create different looks. We take pride in offering affordable prices without compromising on quality or style. Our products are easy to care for and maintain, ensuring long-lasting wear. Shop our collection today and elevate your wardrobe with stylish and timeless pieces that you'll love wearing.",
 
     category: '',
     _id: ''
